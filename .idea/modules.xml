@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/backend-services/backend-services.iml" filepath="$PROJECT_DIR$/backend-services/backend-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-services/common/common.iml" filepath="$PROJECT_DIR$/backend-services/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-services/immatriculation-service-commands-side/immatriculation-service-commands-side.iml" filepath="$PROJECT_DIR$/backend-services/immatriculation-service-commands-side/immatriculation-service-commands-side.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-services/immatriculation-service-query-side/immatriculation-service-query-side.iml" filepath="$PROJECT_DIR$/backend-services/immatriculation-service-query-side/immatriculation-service-query-side.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-services/infraction-service-commands-side/infraction-service-commands-side.iml" filepath="$PROJECT_DIR$/backend-services/infraction-service-commands-side/infraction-service-commands-side.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-services/infraction-service-query-side/infraction-service-query-side.iml" filepath="$PROJECT_DIR$/backend-services/infraction-service-query-side/infraction-service-query-side.iml" />
       <module fileurl="file://$PROJECT_DIR$/radar-app.iml" filepath="$PROJECT_DIR$/radar-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-services/radar-service-commands-side/radar-service-commands-side.iml" filepath="$PROJECT_DIR$/backend-services/radar-service-commands-side/radar-service-commands-side.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-services/radar-service-query-side/radar-service-query-side.iml" filepath="$PROJECT_DIR$/backend-services/radar-service-query-side/radar-service-query-side.iml" />
     </modules>
   </component>
 </project>

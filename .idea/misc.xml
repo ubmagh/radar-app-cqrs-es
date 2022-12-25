@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/backend-services/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-services/radar-service-commands-side/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-services/radar-service-query-side/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-services/immatriculation-service-commands-side/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-services/immatriculation-service-query-side/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-services/infraction-service-commands-side/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-services/infraction-service-query-side/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
