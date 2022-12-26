@@ -67,6 +67,7 @@ public class RadarAggregate {
 
     @CommandHandler
     public void handle( DeleteRadarCommand command){
+        if(this.deleted) return;
         AggregateLifecycle.apply( new RadarDeletedEvent(
                 command.getId()
         ));

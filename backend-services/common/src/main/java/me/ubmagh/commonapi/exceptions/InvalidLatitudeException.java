@@ -1,6 +1,6 @@
 package me.ubmagh.commonapi.exceptions;
 
-public class InvalidLatitudeException extends RadarValidationException {
+public class InvalidLatitudeException extends InputValidationException {
     private Float latitude;
 
     public InvalidLatitudeException(String s, Float latitude) {

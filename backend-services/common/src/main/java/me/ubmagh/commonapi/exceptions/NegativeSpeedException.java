@@ -1,6 +1,6 @@
 package me.ubmagh.commonapi.exceptions;
 
-public class NegativeSpeedException extends RadarValidationException {
+public class NegativeSpeedException extends InputValidationException {
     private Float vitesse;
 
     public NegativeSpeedException(String message, Float speed) {

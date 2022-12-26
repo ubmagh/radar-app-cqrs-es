@@ -9,7 +9,7 @@ import me.ubmagh.commonapi.dtos.UpdateRadarRequestDTO;
 import me.ubmagh.commonapi.exceptions.InvalidLatitudeException;
 import me.ubmagh.commonapi.exceptions.InvalidLongitudeException;
 import me.ubmagh.commonapi.exceptions.NegativeSpeedException;
-import me.ubmagh.commonapi.exceptions.RadarValidationException;
+import me.ubmagh.commonapi.exceptions.InputValidationException;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.eventsourcing.eventstore.EventStore;
 import org.springframework.http.HttpStatus;
@@ -95,8 +95,8 @@ public class RadarController {
     }
 
 
-    @ExceptionHandler(RadarValidationException.class)
-    public ResponseEntity<String> exceptionHandler(RadarValidationException exception){
+    @ExceptionHandler(InputValidationException.class)
+    public ResponseEntity<String> exceptionHandler(InputValidationException exception){
         return new ResponseEntity<String>(exception.getMessage(), HttpStatus.BAD_REQUEST);
     }
 

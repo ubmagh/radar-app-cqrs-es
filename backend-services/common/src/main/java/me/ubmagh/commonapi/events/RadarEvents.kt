@@ -1,9 +1,5 @@
 package me.ubmagh.commonapi.events
 
-abstract class BaseEvent<T> (
-        open val id : T
-)
-
 data class RadarCreatedEvent(
         override val id : String,
         val latitude : Float,
